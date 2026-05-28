@@ -84,7 +84,7 @@ Chicago Data Portal (HTTP)
 | Detail | Info |
 |--------|------|
 | Source | City of Chicago Open Data Portal |
-| URL | `https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv` |
+| URL | `https://data.cityofchicago.org/resource/ijzp-q8t2.csv?$limit=50000` |
 | Full Dataset Size | ~8.2 million records |
 | Records Used | 50,000 (development subset) |
 | Columns | 22 |
