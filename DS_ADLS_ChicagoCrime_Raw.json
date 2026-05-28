@@ -1,0 +1,27 @@
+{
+    "name": "DS_ADLS_ChicagoCrime_Raw",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_ADLS_ChicagoCrime",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "Chicago-Crime"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "chicago_crime_raw.csv",
+                "folderPath": "raw",
+                "fileSystem": "chicago-crime"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "LS_Databricks_ChicagoCrime",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureDatabricks",
+        "typeProperties": {
+            "domain": "https://adb-7405606424895284.4.azuredatabricks.net",
+            "existingClusterId": "0526-070452-o8r3x0nv",
+            "encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEIzOTYzMjNELUIyQUUtNDhBMi1CMjk0LTExQUIxMTUxN0VBOV80NTg4MWJjMC04ZThkLTQ2MTctYjY1ZC05ZGViNTc4NzI2ZmIiDQp9"
+        }
+    }
+}

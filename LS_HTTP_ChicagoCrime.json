@@ -1,0 +1,12 @@
+{
+    "name": "LS_HTTP_ChicagoCrime",
+    "properties": {
+        "annotations": [],
+        "type": "HttpServer",
+        "typeProperties": {
+            "url": "https://data.cityofchicago.org",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Anonymous"
+        }
+    }
+}

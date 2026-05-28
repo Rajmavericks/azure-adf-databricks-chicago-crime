@@ -1,0 +1,25 @@
+{
+    "name": "DS_HTTP_ChicagoCrime_CSV",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_HTTP_ChicagoCrime",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "Chicago-Crime"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": "api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD&$limit=50000"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}
