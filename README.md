@@ -1,4 +1,4 @@
-# Project 2 — ADF + Databricks Pipeline: Chicago Crime Dataset
+# Project — ADF + Databricks Pipeline: Chicago Crime Dataset
 
 
 ## Overview
